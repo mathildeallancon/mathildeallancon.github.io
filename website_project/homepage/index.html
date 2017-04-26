@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>Homepage</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/unslider.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/unslider-dots.css">
+	<link rel="icon" type="image/png" href="assets/img/logo1.png"/>
+
+
+</head>
+<body>
+
+<div class="logo-image">
+				<img src="assets/img/logo1.png" width=100%>
+			</div>
+
+<div class="my-slider">
+	<ul>
+		<li><img src="assets/img/sciencespo_entree.jpg" width=992 height=600></li>
+		<li><img src="assets/img/berkeley_library.jpg" width=992 height=600></li>
+		<li><img src="assets/img/reims.jpg" width=992 height=600></li>
+		<li><img src="assets/img/library.jpg" width=992 height=600></li>
+		<li><img src="assets/img/bibliotheque.jpg" width=992 height=600></li>
+		<li><img src="assets/img/berkeley.jpg" width=992 height=600></li>
+
+	</ul>
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="assets/js/unslider-min.js"></script> 
+
+<script>
+		$(document).ready(function($) {
+			$('.my-slider').unslider({
+				speed: 500,
+				delay: 3000, 
+				keys: true,
+				dots: false,
+				fluid: false,
+				autoplay: true,
+			});
+				});
+
+
+
+	
+	</script>
+
+</body>
+</body>
+
+</html>
