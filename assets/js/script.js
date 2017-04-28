@@ -1,19 +1,18 @@
 $(document).ready(function(){
 	
 
-	$("#link").click(function() {$(".list-item").show();
+$(".container").click(function() {
+	$(".logo-image").fadeOut('slow');
 	});
 
-	
-	$(".submit-button").click(function() {$(".list-item").hide();
+$(".container").click(function() {
+	$(".logo-image").fadeIn(3000);
 	});
 
-	
-	$(".cancel-button").click(function() {$(".list-item").hide();
-	});
-	
-	
-	$("#modal-overlay").click(function() {$(".list-item").hide();
+$(".logo-image").hover(function() {
+	$(".logo-image").animate ({opacity: 0.8}, 3000);
 	});
 
-	});
+});
+
+
